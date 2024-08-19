@@ -1,0 +1,24 @@
+uuid: b61b14b6-923a-4866-af35-fe5c04e90cb7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_news_item__publish_date
+    - node.type.news_item
+  module:
+    - datetime
+id: node.news_item.field_news_item__publish_date
+field_name: field_news_item__publish_date
+entity_type: node
+bundle: news_item
+label: 'Publish Date'
+description: 'Date this item is considered to have been published on. This is not related to when the content was entered in this website, it can be in the future or the past. '
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

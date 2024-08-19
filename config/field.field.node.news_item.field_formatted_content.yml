@@ -1,0 +1,22 @@
+uuid: c79e8b83-f813-44dc-a6c1-8235db3580d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_formatted_content
+    - node.type.news_item
+  module:
+    - text
+id: node.news_item.field_formatted_content
+field_name: field_formatted_content
+entity_type: node
+bundle: news_item
+label: 'Formatted Content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

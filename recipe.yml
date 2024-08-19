@@ -1,0 +1,31 @@
+name: 'Radicati Press'
+description: 'Addon for radicati site adding a press content type.'
+type: 'Content'
+recipes:
+  - radicati-recipe-content-base
+  - radicati-recipe-admin
+install:
+  - field
+  - field_ui
+  - text
+  - filter
+  - editor
+  - ckeditor5
+  - text_field_formatter
+  - link
+  - options
+  - telephone
+  - entity_reference_revisions
+  - file
+  - field_group
+  - taxonomy
+config:
+  import:
+    field: "*"
+    field_ui: "*"
+    text: "*"
+    text_field_formatter: "*"
+    paragraphs: "*"
+    field_group: "*"
+    taxonomy: "*"
+
