@@ -9,8 +9,8 @@
     }
   ],
   "require": {
-    "getrootid/radicati_recipe_admin": "*",
-    "getrootid/radicati_recipe_content_base": "*",
+    "getrootid/radicati-recipe-admin": "*",
+    "getrootid/radicati-recipe-content-base": "*",
     "drupal/smart_date": "*",
     "drupal/field_group": "*"
   }
