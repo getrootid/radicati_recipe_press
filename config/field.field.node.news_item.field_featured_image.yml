@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_featured_image
     - media.type.image
     - node.type.news_item
+_core:
+  default_config_hash: k8_Jd-Ep2MytgNJTGzfQaNmytK4bqeH16N_qSJMd4AU
 id: node.news_item.field_featured_image
 field_name: field_featured_image
 entity_type: node

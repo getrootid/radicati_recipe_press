@@ -5,7 +5,10 @@ dependencies:
   config:
     - core.entity_view_mode.node.card_horizontal
     - field.field.node.news_item.field_featured_image
+    - field.field.node.news_item.field_formatted_content
+    - field.field.node.news_item.field_news_item__publish_date
     - field.field.node.news_item.field_summary
+    - field.field.node.news_item.field_tags
     - node.type.news_item
   module:
     - layout_builder
@@ -14,6 +17,8 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
+_core:
+  default_config_hash: 5hXOMXaa5p7LggUD-OVHBuPEHGYFEiOUjlGdvhqYmF4
 id: node.news_item.card_horizontal
 targetEntityType: node
 bundle: news_item
@@ -46,6 +51,9 @@ content:
     region: content
 hidden:
   created: true
+  field_formatted_content: true
+  field_news_item__publish_date: true
+  field_tags: true
   links: true
   search_api_excerpt: true
   uid: true

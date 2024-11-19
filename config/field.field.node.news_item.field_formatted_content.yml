@@ -7,6 +7,8 @@ dependencies:
     - node.type.news_item
   module:
     - text
+_core:
+  default_config_hash: 5JgLliJXZpdUySmup9BOqnckbGgOppuLyfR-bTDd6S4
 id: node.news_item.field_formatted_content
 field_name: field_formatted_content
 entity_type: node

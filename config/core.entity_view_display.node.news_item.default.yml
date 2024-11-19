@@ -4,10 +4,15 @@ status: true
 dependencies:
   config:
     - field.field.node.news_item.field_featured_image
+    - field.field.node.news_item.field_formatted_content
+    - field.field.node.news_item.field_news_item__publish_date
     - field.field.node.news_item.field_summary
+    - field.field.node.news_item.field_tags
     - node.type.news_item
   module:
     - manage_display
+_core:
+  default_config_hash: fapiTyKooCyPtZ1EURsl4r7jFTxjdjzZuUG033dGTRs
 id: node.news_item.default
 targetEntityType: node
 bundle: news_item
@@ -44,5 +49,8 @@ content:
     region: content
 hidden:
   created: true
+  field_formatted_content: true
+  field_news_item__publish_date: true
+  field_tags: true
   search_api_excerpt: true
   uid: true

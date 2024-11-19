@@ -67,7 +67,7 @@ third_party_settings:
         description: ''
         required_fields: true
 _core:
-  default_config_hash: fqAfjIlrBIWYCLyPe60E1OvyJ-OD6bxFDZj4sCePVHk
+  default_config_hash: J3Ffek5sFdpi-yqZ0WKPYrAD6R1F7smNxcMGAX1P95I
 id: node.news_item.default
 targetEntityType: node
 bundle: news_item

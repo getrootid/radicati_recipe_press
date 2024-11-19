@@ -5,10 +5,15 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.news_item.field_featured_image
+    - field.field.node.news_item.field_formatted_content
+    - field.field.node.news_item.field_news_item__publish_date
     - field.field.node.news_item.field_summary
+    - field.field.node.news_item.field_tags
     - node.type.news_item
   module:
     - manage_display
+_core:
+  default_config_hash: dW8HDW_aAjdK65Zr2j-mOvPuQLqs9xFMlBUEjFCLDgA
 id: node.news_item.teaser
 targetEntityType: node
 bundle: news_item
@@ -31,6 +36,9 @@ content:
 hidden:
   created: true
   field_featured_image: true
+  field_formatted_content: true
+  field_news_item__publish_date: true
   field_summary: true
+  field_tags: true
   search_api_excerpt: true
   uid: true
